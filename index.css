@@ -1,0 +1,28 @@
+*{
+    box-sizing: content-box;
+    font-family: "True Lies";
+}
+@font-face {
+    font-family: 'True Lies';
+    src: url('TrueLies.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+
+.container{
+    display:inline-grid;
+    border:1px solid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+
+}
+.cell{
+    border: 0.5px dotted gray;
+}
+.center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.snake{
+    background: magenta;
+}
